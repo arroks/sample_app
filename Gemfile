@@ -4,6 +4,7 @@ source "https://rubygems.org"
 gem "rails", "~> 7.2.3"
 
 gem "cssbundling-rails"
+gem "bcrypt-ruby"
 gem "sprockets-rails"
 # Use sqlite3 as the database for Active Record
 gem "pg"
