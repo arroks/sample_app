@@ -59,8 +59,11 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem 'factory_bot_rails'
+  gem 'cucumber-rails', :require => false
+  gem 'database_cleaner', github: 'bmabey/database_cleaner'
 end
 
 group :production do
   gem "rails_12factor"
 end
+gem "jsbundling-rails", "~> 1.3"
